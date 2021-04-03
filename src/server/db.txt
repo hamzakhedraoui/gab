@@ -1,0 +1,17 @@
+create database gab;
+use gab;
+create table account(
+    id int primary key AUTO_INCREMENT,
+    firstname varchar(40),
+    lastname varchar(40),
+    debit double,
+    lockes int,
+    cardNumber varchar(40));
+
+
+insert into account values(null,'amira','mahcen',85000,0,'1111111111');
+insert into account values(null,'mohamed','mohamed',40000,0,'2222222222');
+insert into account values(null,'warda','warda',50000,0,'3333333333');
+
+jdbc driver :
+https://dev.mysql.com/downloads/connector/j/
